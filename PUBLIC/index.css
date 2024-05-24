@@ -1,0 +1,152 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}   
+
+.logo {
+    height: 50px;
+    width: 70px;
+    margin-top: 10px;
+    
+}
+
+
+
+.Skin {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+    flex-direction: row;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.Skin:hover {
+    border-bottom: 1px solid black;
+}
+
+.cart {
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    position: relative;
+    top: 20px;
+   
+}
+
+.links{
+    display: flex;
+
+}
+.banner {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.hed {
+    height: 100%;
+    width: 100%;
+}
+
+.brand {
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', futura, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+
+}
+
+.comp-brand {
+    height: 130px;
+    width: 130px;
+    border: 1px solid black;
+    border-radius: 100px;
+    box-shadow: 0 0 10PX rgba(0,0,0,0.2);
+    animation-name: boxshadow;
+    animation-duration: 6s;
+    animation-iteration-count: 500;
+
+}
+@keyframes boxshadow{
+    from{box-shadow: 0 0 10PX rgba(0,0,0,0.2);}
+    to{box-shadow: 0 0 10PX rgb(0, 0, 0);}
+}
+
+.main1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.pro {
+    height: 330px;
+    width: 300px;
+    /* border: 1px solid black;   */
+}
+
+.main2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    gap: 15px;
+    
+}
+
+.main3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img1 {
+    height: 80px;
+    width:  80px;
+}
+
+.main4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e7e7e7;
+}
+
+
+.col1 {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', futura, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.col2 {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', futura, 'Trebuchet MS', sans-serif;
+    margin: 30px;
+} 
+
+.hp{
+    width: 1000px;
+}
+
+.hp1{
+    width: 700px;
+}
+.right {
+    height: 15px;
+    width: 15px;
+}
+
+
